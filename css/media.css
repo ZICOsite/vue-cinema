@@ -39,6 +39,9 @@
   .premier__content .container {
     text-align: center;
   }
+  .premier__txt {
+    margin: 0 auto 55px;
+  }
   /* premier end */
 }
 

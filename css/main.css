@@ -1,3 +1,45 @@
+/* Comfortaa */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+  font-weight: 400;
+}
+
+/* Comfortaa */
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+/* Montserrat */
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+/* Roboto */
 :root {
   --font_C: 'Comfortaa';
   --font_R: 'Roboto';
@@ -422,7 +464,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
+  grid-gap: 30px;
 }
 
 /* banner end */
@@ -668,7 +710,7 @@ ul {
       grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: (1fr)[4];
       grid-template-rows: repeat(4, 1fr);
-  gap: 30px;
+  grid-gap: 30px;
 }
 
 .series__content {
@@ -703,7 +745,7 @@ ul {
   place-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  gap: 25px;
+  grid-gap: 25px;
   text-align: center;
   background: var(--series);
 }
@@ -764,8 +806,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  grid-column-gap: 50px;
 }
 
 .footer__app-link {

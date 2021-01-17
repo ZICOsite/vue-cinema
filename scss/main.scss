@@ -317,7 +317,7 @@ ul {
 
 .banner__btns {
     display: flex;
-    gap: 30px;
+    grid-gap: 30px;
 }
 
 /* banner end */
@@ -529,7 +529,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 30px;
+    grid-gap: 30px;
 }
 
 .series__content {
@@ -559,7 +559,7 @@ ul {
     display: grid;
     place-items: center;
     align-content: center;
-    gap: 25px;
+    grid-gap: 25px;
     text-align: center;
     background: var(--series);
 }
@@ -611,7 +611,7 @@ ul {
 .footer__app {
     display: flex;
     align-items: center;
-    column-gap: 50px;
+    grid-column-gap: 50px;
 }
 
 .footer__app-link {

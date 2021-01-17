@@ -33,8 +33,27 @@
     /* collection end */
 }
 
-/* @media (max-width: 992px) {} */
+@media (max-width: 992px) {
+    /* premier start */
 
+    .premier__video {
+        width: 100%;
+    }
+
+    .premier__content {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .premier__content .container {
+        text-align: center;
+    }
+
+    .premier__txt {
+        display: none;
+    }
+
+    /* premier end */
+}
 
 @media (max-width: 768px) {
     /* header start */
@@ -60,7 +79,7 @@
     }
 
     .header__nav-line::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -10px;
         right: 0;
@@ -70,7 +89,7 @@
     }
 
     .header__nav-line::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 10px;
         right: 0;
@@ -95,7 +114,7 @@
     .banner__txt {
         margin: 0 auto 30px;
     }
-    
+
     .banner__btns {
         justify-content: center;
     }
@@ -109,26 +128,6 @@
     }
 
     /* films end */
-
-    /* premier start */
-
-    .premier__video {
-        width: 100%;
-    }
-
-    .premier__content {
-        background: rgba(255, 255, 255, 0.5);
-    }
-
-    .premier__content .container {
-        text-align: center;
-    }
-
-    .premier__txt {
-        display: none;
-    }
-
-    /* premier end */
 
     /* series start */
 
@@ -171,7 +170,7 @@
     .films__card {
         width: 100%;
     }
-    
+
     /* films end */
 
     /* premier start */

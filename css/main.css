@@ -464,7 +464,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  grid-gap: 30px;
+  gap: 30px;
 }
 
 /* banner end */
@@ -710,7 +710,7 @@ ul {
       grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: (1fr)[4];
       grid-template-rows: repeat(4, 1fr);
-  grid-gap: 30px;
+  gap: 30px;
 }
 
 .series__content {
@@ -745,7 +745,7 @@ ul {
   place-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  grid-gap: 25px;
+  gap: 25px;
   text-align: center;
   background: var(--series);
 }

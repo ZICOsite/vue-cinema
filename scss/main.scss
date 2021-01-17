@@ -317,7 +317,7 @@ ul {
 
 .banner__btns {
     display: flex;
-    grid-gap: 30px;
+    gap: 30px;
 }
 
 /* banner end */
@@ -529,7 +529,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 30px;
+    gap: 30px;
 }
 
 .series__content {
@@ -559,7 +559,7 @@ ul {
     display: grid;
     place-items: center;
     align-content: center;
-    grid-gap: 25px;
+    gap: 25px;
     text-align: center;
     background: var(--series);
 }
